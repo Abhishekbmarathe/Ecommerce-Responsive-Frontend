@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --blue: #0092ff;
+  --wht: rgb(245, 252, 255);
+}
+
+body {
+  background-color: var(--wht);
+  overflow-x: hidden;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap ;
+}
+
+.img_small {
+  width: 30px;
+  height: 30px;
+  mix-blend-mode: multiply;
+}
+
+ul li {
+  list-style: none;
+}
+
+.sim_gap {
+  gap: 22px;
+}
+
+.icon_sim_gap {
+  gap: 10px;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background: var(--wht);
+}
+
+nav {
+  max-width: 90vw;
+  margin: 0 auto;
+  padding: 8px 0;
+}
+
+.nav_1 {
+  gap: 200px;
+}
+
+.blue {
+  background-color: var(--blue);
+}
+.blue_items {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+input {
+  border: none;
+  outline: none;
+  height: 32.2px;
+  width: 50em;
+  padding: 0 10px;
+}
+.search {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  width: 6em;
+
+  cursor: pointer;
+}
+
+.b_right {
+  gap: 40px;
+}
+
+h4 {
+  background-color: rgb(241, 6, 6);
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  width: fit-content;
+  padding: 3px;
+  border-radius: 5px;
+  position: absolute;
+  top: 64px;
+}
+
+/* section begins >>>>>>>> */
+
+.bg_img .txt {
+  width: 60%;
+  height: fit-content;
+  margin: 0 auto;
+  line-height: 32px;
+  padding: 6% 0;
+  color: color(srgb red green blue);
+}
+
+.txt h1 {
+  font-size: 4em;
+  font-weight: bolder;
+}
+.rm {
+  width: 150px;
+  border-radius: 60px;
+  padding: 14px 5px;
+  background: var(--grncol);
+  color: rgb(11, 11, 11);
+
+  border: none;
+  cursor: pointer;
+}
+.bg_img {
+  position: relative;
+  background-color: rgb(0 0 0 / 54%);
+  width: 100vw;
+  height: 500px;
+  color: white;
+}
+
+.bg_img::before {
+  content: "";
+  background: url("resources/bg_1.jpg") no-repeat center center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: absolute;
+  height: 500px;
+  width: 100%;
+  z-index: -1;
+}
+.rm {
+  background-color: var(--blue);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: bolder;
+}
+
+/* section ENDS */
+
+/* cards section starts >>>>>>>>>> */
+
+.cards {
+  margin: 24px auto;
+  max-width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+
+.card {
+  background-color: #d7e9ff7d;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: fit-content;
+  max-width: 300px;
+  text-align: left;
+  margin: 8px 0;
+}
+
+.product-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  mix-blend-mode: multiply;
+}
+
+.product-info {
+  padding: 20px;
+}
+
+.product-name {
+  font-family: monospace;
+  font-size: 20px;
+  margin: 0;
+}
+
+.product-price {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.product-ratings {
+  margin: 10px 0;
+}
+
+/* cards section ends >>>>>>>>>> */
+
+/* category buttons starts >>>>>>>>> */
+.cat_btns {
+  background: none;
+  /* border-radius: 10px; */
+  padding: 5px 5px;
+  cursor: pointer;
+  border: none;
+  /* width: 6.5em; */
+  font-size: 17px;
+}
+
+/* category buttons ends >>>>>>>>> */
+
+.active {
+  /* background-color: var(--blue); */
+  /* color: white; */
+  border-bottom:3px solid var(--blue);
+}
+
+.ap {
+  margin: 10px auto;
+  max-width: 90%;
+}
+
+.hide {
+  display: none;
+}
+
+/* slider */
+.slider {
+  display: flex;
+  width: 44%;
+  overflow: hidden;
+}
+
+.slide {
+  flex: 0 0 100%;
+  height: 300px;
+  transition: transform 0.5s;
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* footer begins */
+#amazon-footer {
+  /* background-color: #232f3e; */
+  background-color: var(--blue);
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  /* width: 100%; */
+  height: 200px;
+}
+
+.footer-section {
+  /* flex: 1; */
+  padding: 0 20px;
+}
+
+h4 {
+  font-size: 18px;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+/* footer ends */

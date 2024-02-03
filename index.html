@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce_2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="flex nav">
+            <div class="nav_1 flex">
+                <div class="left flex icon_sim_gap">
+                    <img src="resources/download.png" class="img_small" alt="">
+                    <p>Catogories</p>
+                </div>
+                <ul class="flex sim_gap">
+                    <li>Home</li>
+                    <li>Shop</li>
+                    <li>Pages</li>
+                    <li>Blogs</li>
+                </ul>
+            </div>
+            <div>
+                <ul class="flex sim_gap">
+                    <li class="flex">
+                        <img class="img_small icon_sim_gap" src="resources/download (2).png" alt="">
+                        <p> England</p>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="blue">
+            <div class="blue_items flex">
+                <div class="b_left">
+                    <h1><b>Market</b><span style="color:white;">kit</span></h1>
+                </div>
+                <div class="b_right flex sim_gap">
+                    <div class="input">
+                        <input type="text" class="search_bar" placeholder="Search for items..."><button class="search"
+                            onclick="search_items()">Search</button>
+                    </div>
+                    <div><img class="img_small"
+                            src="resources/pngtree-outline-bag-icon-symbol-isolated-png-image_1727847.jpg" alt="">
+                        <h4 class="r">3M</h4>
+                    </div>
+                    <div><img class="img_small" src="resources/download (1).png" alt="">
+                        <h4 class="r">1</h4>
+                    </div>
+                    <div><img class="img_small"
+                            src="resources/pngtree-outline-bag-icon-symbol-isolated-png-image_1727847.jpg" alt="">
+                        <h4 class="r">2</h4>
+                    </div>
+                    <div class="login flex icon_sim_gap">
+                        <img class="img_small" src="resources/download.jpg" alt="">
+                        Login/Register
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg_img">
+        <div class="txt flex">
+            <div>
+                <h3 style="color: #ffffff;">VERSION 2018</h3><br>
+                <h1>30% discount</h1><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <br> ex obcaecati omnis laudantium
+                </p><br>
+                <button class="rm">Shop Now</button>
+            </div>
+
+            <div class="slider">
+                <img class="slide" src="resources/wa_1.jpg"></img>
+                <img class="slide" src="resources/wa_2.jpg"></img>
+                <img class="slide" src="resources/wa_3.jpg"></img>
+            </div>
+    </section>
+
+
+    <div class="filter_products flex sim_gap">
+        <h1 class="ap"><span>All</span> Products</h1>
+        <ul class="flex sim_gap ap">
+            <li><button class="cat_btns" onclick="filterProducts('All')" value="All">All</button></li>
+            <li><button class="cat_btns" onclick="filterProducts('mobile')" value="apple">mobile</button></li>
+            <li><button class="cat_btns" onclick="filterProducts('headphone')" value="Headphones">headphone</button></li>
+            <li><button class="cat_btns" onclick="filterProducts('watch')" value="Watch's">Watch</button></li>
+            <li><button class="cat_btns" onclick="filterProducts('Camera')" value="Watch's">camera</button></li>
+            <li><button class="cat_btns" onclick="filterProducts('desktop')" value="Desktops">Desktop</button></li>
+        </ul>
+    </div>
+    <section class="cards">
+        <!-- <div class="card">
+            <img src="resources/ap_1.jpg" alt="Product Image" class="product-image">
+            <div class="product-info">
+                <h2 class="product-name">Product Name</h2>
+                <div class="product-ratings" id="ratings"></div>
+                <p class="product-price">$19.99</p>
+            </div>
+        </div> -->
+    </section>
+
+    <!-- footer begins -->
+    <footer id="amazon-footer">
+        <div class="footer-section">
+            <h4>Get to Know Us</h4>
+            <ul>
+                <li>About Us</li>
+                <li>Careers</li>
+                <li>Press Releases</li>
+                <!-- Add more list items here -->
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Make Money with Us</h4>
+            <ul>
+                <li>Sell on Amazon</li>
+                <li>Sell on Amazon Business</li>
+                <li>Sell Your Apps on Amazon</li>
+                <!-- Add more list items here -->
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Amazon Payment Products</h4>
+            <ul>
+                <li>Amazon Business Card</li>
+                <li>Shop with Points</li>
+                <li>Reload Your Balance</li>
+                <!-- Add more list items here -->
+            </ul>
+        </div>
+        <!-- Add more footer sections as needed -->
+    </footer>
+    <!-- footer ends -->
+
+
+
+    <script src="script.js"></script>
+    <script src="oreder.js"></script>
+</body>
+
+</html>
+
+
+
+    

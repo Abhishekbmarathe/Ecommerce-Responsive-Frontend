@@ -1,0 +1,40 @@
+@media screen and (max-width: 900px) {
+    .search_bar{
+        max-width: 100px;
+        padding: 0px 10px;
+        height: px;
+        border-radius: 10px 0px 0px 10px;
+
+    }
+    .search{
+        width: 5em;
+        border-radius: 0 10px 10px 0;
+    }
+    .txt{
+        text-align: center;
+    }
+    .txt>div h1{
+        font-size: 35px;
+    }
+    .slider{
+        display: none;
+    }
+    .nav{
+        display: none;
+    }
+    .blue_items{
+        gap: 0px;
+    }
+    .b_right{
+        gap: 0px;
+    }
+    .b_left{
+        font-size: 15px;
+    }
+    .img_small{
+      display: none;
+    }
+    .r,.login{
+        display: none;
+    }
+}
